@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.wrapper {
+  background-color: #000;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 0 50px 0;
+  padding: 50px 0 0 0;
+  position: relative;
+}
+
+.title img {
+  width: 30px;
+  height: 30px;
+}
+
+.searchTitle {
+  font-style: italic;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin: 30px 0 20px;
+}
+
+.directoriesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.directoryLink {
+  display: block;
+  border: 1px solid white;
+  border-radius: 70%;
+  text-align: center;
+  padding: 10px 0;
+  width: 30%;
+  text-decoration: none;
+}
+
+.directoryLink:hover {
+  font-weight: 700;
+}
+
+.directoriesLabel {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.search {
+  width: 300px;
+  display: block;
+  font-size: 14px;
+  border: 2px solid #fff;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  margin: 20px 0 20px 100px;
+}
+
+#directories {
+  font-size: 16px;
+  background-color: #141414;
+  color: #fff;
+}
+
+#submit {
+  display: block;
+  margin-left: 100px;
+  margin-bottom: 60px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  background-color: #141414;
+}
+
+#submit:hover {
+  background-color: rgb(48, 48, 48);
+  cursor: pointer;
+}
+
+.checkboxHolder {
+  text-align: center;
+}
+
+.label {
+  font-size: 20px;
+  color: #fff;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.titleSearchResult {
+  margin-top: 40px;
+  width: 70%;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.resultsWrapper {
+  display: flex;
+}
+
+.resultItem {
+  width: 50%;
+  color: #fff;
+  padding: 10px 20px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="style.css" />
+        <title>dz_16</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <h1 class="title">Star Wars <img src="/logo.png" alt="logo" srcset="" /></h1>
+            <h2 class="searchTitle">Directories</h2>
+            <div class="directoriesWrapper">
+                <a class="directoryLink" id="filmsLink" href="#">Films</a>
+                <a class="directoryLink" id="peopleLink" href="#">People</a>
+                <a class="directoryLink" id="planetsLink" href="#">Planets</a>
+                <a class="directoryLink" id="speciesLink" href="#">Species</a>
+                <a class="directoryLink" id="starshipsLink" href="#">Starships</a>
+                <a class="directoryLink" id="vehiclesLink" href="#">Vehicles</a>
+            </div>
+            <h2 class="searchTitle">Search</h2>
+            <label for="directories" class="directoriesLabel">Choose a directory for search:</label>
+            <select name="directories" id="directories">
+                <option value="films" selected="selected">Films</option>
+                <option value="people">People</option>
+                <option value="planets">Planets</option>
+                <option value="species">Species</option>
+                <option value="starships">Starships</option>
+                <option value="vehicles">Vehicles</option>
+            </select>
+            <input class="search" id="search" placeholder="Enter the information for search" />
+            <button class="button" id="submit">Search</button>
+            <div class="resultsWrapper">
+                <div class="resultItem" id="result"></div>
+                <div class="resultItem" id="resultSecond"></div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+            integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="main.js"></script>
+    </body>
+</html>
