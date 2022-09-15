@@ -1,10 +1,14 @@
 * {
   box-sizing: border-box;
-  overflow: auto;
+}
+
+body {
+  background-color: #000;
 }
 
 .wrapper {
-  background-color: #000;
+  height: 100%;
+  overflow: scroll;
 }
 
 .title {
@@ -117,10 +121,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-.resultsWrapper {
-  display: flex;
 }
 
 .resultItem {
